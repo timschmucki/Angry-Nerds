@@ -1,0 +1,52 @@
+<body>
+
+    <div id="chat">
+        <h1>HSG-Chat</h1>
+        <div id="chatHistory">
+
+            <div class="msg msgPeer">
+                    <b>Leopold</b>
+                    <p>Do you see any Teletubbies in here?</p>
+            </div>
+
+
+            <div class="msg msgMe">
+                    <b>Peter</b>
+                    <p>Willkommen im HSG-Chat!</p>
+            </div>
+
+            <div class="msg msgPeer">
+                    <b>Ursina</b>
+                    <p>{{chatMessage}}</p>
+            </div>
+
+            <div class="msg msgMe">
+                <b>Peter</b>
+                <p>{{chatMessage}}</p>
+            </div>
+            <div id="breaker"></div>
+
+            <div class="msg msgPeer">
+                <b>Leopold</b>
+                <p>{{chatMessage}}</p>
+            </div>
+
+            <div class="msg msgMe">
+                <b>Leopold</b>
+                <p>{{chatMessage}}</p>
+            </div>
+            
+        </div>
+        <div id=textbox class="align-bottom">
+            <textarea [(ngModel)]="chatMessage" (keyup.enter)="addMessage(chatMessage)" rows="2" class="form-control" id="msgTextbox" placeholder="Parlieren!"></textarea>
+            <button [disabled]="!chatMessage" id="msgButton" type="button" class="btn btn-primary" (click)="addMessage(chatMessage)">Senden</button>
+        </div>
+
+        
+    </div>
+
+    <div id="settings">
+        <h1>Einstellungen</h1>
+    </div>
+
+</body>

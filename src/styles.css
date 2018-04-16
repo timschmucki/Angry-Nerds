@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* Alle Anweisungen fürs Design in diesem Dokument gelten für das gesamte Projekt */
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";     /* Bootstrap importieren */
+
+*{
+    margin: 0;                      /* "Standardabstände" ausschalten */
+}
+
+body{
+    background-color: #f9f9f9;    /* standardmässig Hintergrundfarbe leichtes Grau */
+
+    height: 90%;
+}
+
+html{
+    height: 100%;
+}
+
+h1, h2, h3, h4, p{                  /* Hier wird für das gesamte Projekt das Standardaussehen der Schriften eingestellt */
+    font-family: "Gill Sans MT";    /* So heisst die Schrift */
+    font-weight: normal;            /* Die Schrift soll standardmässig nicht fett geschrieben werden! */
+}
+
+h1{
+    font-size: 24px;                /* Überschrift1 (h1) soll Schriftgrösse 24 haben */
+}

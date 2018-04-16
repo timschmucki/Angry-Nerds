@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    padding: 40px 10px 10px 10px;
+    position: fixed;
+}
+
+p{
+    font-size: 15px;
+}
+
+#chat h1, #settings h1{
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 0;
+}
+
+#chat{
+    width: 60%;
+    height: 78%;
+    float: left;
+    padding-left: 3%;
+}
+
+#chatHistory{
+    padding-top: 0.5em;
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+}
+
+.msg{
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    border-radius: 10px;
+    clear: both;
+    background-color: rgba(21,145,247,0.781);
+    color: white;
+}
+
+.msgPeer{
+    float: left;
+}
+
+.msgMe{
+    float: right;
+    
+}
+
+.msg b{
+    font-size: 12px;
+}
+
+#breaker{
+    clear: both;
+}
+
+#textbox{
+    padding-top: 5px;
+    border-top: 1px solid #d3d3d3;
+    height: 10%;
+    width: 100%;
+}
+
+#msgTextbox{
+    float: left;
+    width: 87%;
+}
+
+#msgButton{
+    float: right;
+}
+
+#settings{
+    width: 35%;
+    float: left;
+    padding-right: 3%;
+    margin-left: 5%;
+}

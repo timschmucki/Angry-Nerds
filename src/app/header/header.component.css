@@ -1,0 +1,14 @@
+/* Header allgemein */
+header{
+    width: 100%;
+    min-height: 162px;                  /* minimale Höhe definiert für Header, damit Logo auch rechts dargestellt werden kann */
+    padding: 0px 10px 10px 10px;        /* Freiräume im Header (oben, rechts, unten, links) */
+    border-bottom: 1px solid #f1f1f1; /* Abgrenzungslinie vom Header (Liniendicke, Linienart, Farbe) */
+    background-color: #ffffff;        /* Hintergrundfarbe des Headers */
+}
+
+/* HSG Logo */
+img{
+    position: absolute;                 /* Art der Positionierung */
+    left: 10px;                         /* Logo ist deshalb links, wenn rechts -> "right: 10px;"*/
+}

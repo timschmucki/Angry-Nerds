@@ -1,0 +1,17 @@
+footer{
+    height: 6%;
+    padding: 10px 10px 0px 10px;        /* Abstände im Footer: (oben, rechts, unten, links) */
+    border-top: 1px solid #f1f1f1;    /* Abgrenzungslinie zum Content-Bereich (Liniendicke, Art der Linie, Farbe) */    
+    position: fixed;                 /* Art der Positionierung */
+    right: 0;                           /* Diese drei Linien geben vor, dass der Footer immer am unteren Ende des Bildschirms ist */
+    bottom: 0;                              
+    left: 0;   
+    background-color: #ffffff;                         
+    
+}
+
+p{                                      /* Hier wird geregelt, dass der Text (p) im Footer nicht standardmässig dargestellt wird */
+    color: #d3d3d3;                   /* Schriftfarbe */
+    text-align: center;                 /* Schriftsatz: Zentriert */
+    font-size: 12px;                    /* Schriftgrösse: 12 */
+}
